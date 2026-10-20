@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexey Bochkov | IT Specialist & Software Engineer</title>
+
+    <!-- Подключение FontAwesome для иконок -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Подключение стилей -->
+    <link rel="stylesheet" href="style.css?v=4">
+</head>
+<body>
+
+    <!-- Навигация -->
+    <nav class="navbar">
+        <div class="logo">&lt;ALEXEY.DEV/&gt;</div>
+        
+        <!-- Гамбургер-кнопка для мобильных -->
+        <button class="hamburger" id="hamburgerBtn" aria-label="Toggle Navigation">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <div class="nav-container" id="navContainer">
+            <ul class="nav-links">
+                <li><a href="#about" data-i18n="nav_about">About</a></li>
+                <li><a href="#skills" data-i18n="nav_skills">Skills</a></li>
+                <li><a href="#experience" data-i18n="nav_experience">Experience</a></li>
+                <li><a href="#portfolio" data-i18n="nav_portfolio">Portfolio</a></li>
+                <li><a href="#education" data-i18n="nav_education">Education</a></li>
+                <li><a href="#contact" class="btn-nav" data-i18n="nav_contact">Contact</a></li>
+            </ul>
+
+            <!-- Переключатель языков -->
+            <div class="lang-switcher">
+                <button class="lang-btn active" data-lang="en">EN</button>
+                <button class="lang-btn" data-lang="ru">RU</button>
+                <button class="lang-btn" data-lang="az">AZ</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <span class="badge"><i class="fa-solid fa-circle-check"></i> <span data-i18n="hero_badge">Available for hire</span></span>
+            <h1 data-i18n="hero_name">Alexey Bochkov</h1>
+            <p class="subtitle" data-i18n="hero_subtitle">IT Specialist & Software Engineer focused on network administration, IT infrastructure management, and web development.</p>
+            
+            <div class="contact-quick">
+                <a href="tel:+994508277169"><i class="fa-solid fa-phone"></i> +994 (50) 827-71-69</a>
+                <a href="mailto:alex.barrel.99@gmail.com"><i class="fa-solid fa-envelope"></i> alex.barrel.99@gmail.com</a>
+                <span><i class="fa-solid fa-location-dot"></i> Baku, Azerbaijan</span>
+            </div>
+
+            <div class="hero-btns">
+                <a href="#experience" class="btn primary" data-i18n="btn_experience">Experience</a>
+                <a href="https://t.me/alex_barrel" target="_blank" class="btn secondary"><i class="fa-brands fa-telegram"></i> @alex_barrel</a>
+            </div>
+        </div>
+
+        <div class="hero-avatar">
+            <div class="avatar-glow"></div>
+            <div class="avatar-frame">
+                <div class="avatar-icon"><i class="fa-solid fa-terminal"></i></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2 class="section-title" data-i18n="about_title">About Me</h2>
+        <p class="about-text" data-i18n="about_text">
+            IT Specialist with a strong background in both software development and technical infrastructure management. Experienced in multi-site IT support, network administration, hardware maintenance, and building user interfaces. Effectively bridges the gap between software and hardware operations.
+        </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <h2 class="section-title" data-i18n="skills_title">Technical Skills</h2>
+        
+        <div class="skills-grid">
+            <div class="skill-card">
+                <div class="skill-header">
+                    <i class="fa-solid fa-network-wired" style="color: #00f2fe;"></i>
+                    <h3>Infrastructure & Networks</h3>
+                </div>
+                <ul>
+                    <li data-i18n="skill_infra_1">Network administration & multi-site IT support</li>
+                    <li data-i18n="skill_infra_2">IP & analog CCTV systems setup</li>
+                    <li data-i18n="skill_infra_3">Hardware troubleshooting</li>
+                    <li data-i18n="skill_infra_4">Site surveys & technical audits</li>
+                    <li data-i18n="skill_infra_5">Printers & peripherals</li>
+                </ul>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-header">
+                    <i class="fa-brands fa-js" style="color: #f7df1e;"></i>
+                    <h3>Frontend Development</h3>
+                </div>
+                <ul>
+                    <li>HTML5 / CSS3 & CSS preprocessors</li>
+                    <li>JS (ES6+) / TypeScript / jQuery</li>
+                    <li>React, Vue, AngularJS</li>
+                </ul>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-header">
+                    <i class="fa-solid fa-code" style="color: #68a063;"></i>
+                    <h3>Backend & Other Languages</h3>
+                </div>
+                <ul>
+                    <li>Node.js, Express, MongoDB</li>
+                    <li>JWT, REST API</li>
+                    <li>Python, C#</li>
+                </ul>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-header">
+                    <i class="fa-solid fa-screwdriver-wrench" style="color: #ff7675;"></i>
+                    <h3>Tools & Workflow</h3>
+                </div>
+                <ul>
+                    <li>Git, Jira</li>
+                    <li>Figma, Photoshop, Canva</li>
+                    <li>MS Office</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <h2 class="section-title" data-i18n="exp_title">Work Experience</h2>
+        <div class="timeline">
+
+            <!-- ADT Comp Group -->
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date" data-i18n="exp1_date">November 2025 — Present</div>
+                <div class="timeline-content">
+                    <h3>Network Technician / IT Support</h3>
+                    <p class="company">ADT Comp Group, MMC — <a class="company-link" href="https://www.adt.az/" target="_blank">www.adt.az</a></p>
+                    <ul>
+                        <li data-i18n="exp1_bullet1"><strong>Multi-Site IT Infrastructure Support:</strong> Technical maintenance and helpdesk support for the head office and a network of retail stores across major shopping malls.</li>
+                        <li data-i18n="exp1_bullet2"><strong>Site Assessment & Maintenance:</strong> Conducting technical inspections of retail locations to ensure full operational readiness of network infrastructure and IT equipment.</li>
+                        <li data-i18n="exp1_bullet3"><strong>CCTV & Surveillance Systems:</strong> Installation, mounting, and configuration of both IP and analog video surveillance systems (including NVR/DVR setup and camera alignment).</li>
+                        <li data-i18n="exp1_bullet4"><strong>Hardware, Printers & Peripherals:</strong> Setup, maintenance, and troubleshooting of network hardware, office/thermal printers, work spots, and basic hardware repairs.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Saral Group -->
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date" data-i18n="exp2_date">May 2024 — March 2025</div>
+                <div class="timeline-content">
+                    <h3>IT Specialist</h3>
+                    <p class="company">SARAL GROUP, LLC — <a class="company-link" href="https://www.saralgroup.az" target="_blank">www.saralgroup.az</a></p>
+                    <ul>
+                        <li data-i18n="exp2_bullet1">Full-cycle installation of CCTV systems, including SCS cabling, camera mounting, and NVR configuration at the Formula 1 event venue.</li>
+                        <li data-i18n="exp2_bullet2">General IT infrastructure maintenance and user software support.</li>
+                        <li data-i18n="exp2_bullet3">Installation, network connection, and servicing of office printers and hardware.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- EGAR Technology -->
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date" data-i18n="exp3_date">July 2020 — February 2022</div>
+                <div class="timeline-content">
+                    <h3>Software Developer</h3>
+                    <p class="company">EGAR TECHNOLOGY, INC. (Moscow) — <a class="company-link" href="https://www.egartech.ru" target="_blank">www.egartech.ru</a></p>
+                    <ul>
+                        <li data-i18n="exp3_bullet1">Designed and developed user interfaces for web apps using HTML, CSS, TypeScript, and AngularJS.</li>
+                        <li data-i18n="exp3_bullet2">Fixed UI/UX bugs to improve overall user experience.</li>
+                        <li data-i18n="exp3_bullet3">Refactored code to improve efficiency and maintainability.</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Portfolio Section (карточки генерируются в script.js из массива portfolioItems) -->
+    <section id="portfolio" class="section">
+        <h2 class="section-title" data-i18n="portfolio_title">Portfolio</h2>
+        <div class="portfolio-grid" id="portfolioGrid"></div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <h2 class="section-title" data-i18n="edu_title">Education & Certificates</h2>
+        
+        <div class="edu-grid">
+            <div class="edu-card">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <div class="edu-info">
+                    <h3>Software Engineer</h3>
+                    <p class="school">Gomel Trade and Economic College (2017 — 2020)</p>
+                </div>
+            </div>
+
+            <div class="edu-card">
+                <i class="fa-solid fa-certificate"></i>
+                <div class="edu-info">
+                    <h3 data-i18n="cert_title">Certificates</h3>
+                    <ul>
+                        <li><strong>2022:</strong> "Python Generation" (<a href="https://stepik.org/certificate/b0b0b180df0800c3036830d1bc1529d0f09d10f9.pdf" target="_blank" class="cert-link">Beginners</a> & <a href="https://stepik.org/certificate/0a80cb1fe3bb552066b44a7725bcfcb3be6bf4c3.pdf" target="_blank" class="cert-link">Advanced</a>)</li>
+                        <li><strong>2018:</strong> <a href="https://drive.google.com/file/d/1d5JZMWUcLqMsnMU6KqdpJQrB9zSY0WuL/view" target="_blank" class="cert-link">Using JavaScript technology to create Internet applications</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2 class="section-title" data-i18n="contact_title">Get In Touch</h2>
+        <div class="contact-box">
+            <p data-i18n="contact_subtitle">Open for IT infrastructure, network administration, and software development projects.</p>
+            <div class="socials">
+                <a href="tel:+994508277169" class="social-link"><i class="fa-solid fa-phone"></i> +994 (50) 827-71-69</a>
+                <a href="mailto:alex.barrel.99@gmail.com" class="social-link"><i class="fa-solid fa-envelope"></i> Email</a>
+                <a href="https://t.me/alex_barrel" target="_blank" class="social-link"><i class="fa-brands fa-telegram"></i> Telegram</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Alexey Bochkov. IT Specialist & Software Engineer.</p>
+    </footer>
+
+    <script src="script.js?v=4"></script>
+</body>
+</html>
