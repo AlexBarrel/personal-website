@@ -147,19 +147,18 @@ const portfolioItems = [
         }
     },
     {
-        url: "#",
-        url_text: "github.com",
+        url: "https://media-finder-app.vercel.app/",
         image: "",
-        tags: ["Future Project"],
+        tags: ["React", "TypeScript", "Tailwind CSS", "REST API", "Movie & Game Database", "Web App"],
         title: {
-            en: "Coming Soon",
-            ru: "В разработке",
-            az: "Tezliklə"
+            en: "MediaFinder",
+            ru: "MediaFinder",
+            az: "MediaFinder"
         },
         desc: {
-            en: "Stay tuned for more updates on my GitHub.",
-            ru: "Следите за обновлениями в моем GitHub.",
-            az: "GitHub-da yenilikləri izləməyə davam edin."
+            en: "Cinematic movie and video game discovery app with a sleek dark interface and detailed modal views.",
+            ru: "Кинематографичное веб-приложение для поиска фильмов и видеоигр с темным интерфейсом и подробными модальными окнами.",
+            az: "Tünd interfeys və ətraflı modal pəncərələrlə film və video oyunları axtarış tətbiqi."
         }
     }
 ];
