@@ -11,8 +11,10 @@
         <!-- Подключение стилей -->
     <link rel="stylesheet" href="style.css?v=4">
 
-    <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%230f172a'/><text x='50%' y='50%' dominant-baseline='central' text-anchor='middle' font-family='monospace' font-weight='bold' font-size='60' fill='%2300f2fe'>&gt;_</text></svg>">
+
+
+        <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='25' fill='%230b0f19'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='central' text-anchor='middle' font-family='monospace' font-weight='bold' font-size='60' fill='%2300f2fe'%3E%3E_%3C/text%3E%3C/svg%3E">
 </head>
 <body>
 
@@ -84,10 +86,14 @@
         <h2 class="section-title" data-i18n="skills_title">Technical Skills</h2>
         
         <div class="skills-grid">
-            <div class="skill-card">
+
+
+
+
+                        <div class="skill-card">
                 <div class="skill-header">
                     <i class="fa-solid fa-network-wired" style="color: #00f2fe;"></i>
-                    <h3>Infrastructure & Networks</h3>
+                    <h3 data-i18n="skill_title_1">Infrastructure & Networks</h3>
                 </div>
                 <ul>
                     <li data-i18n="skill_infra_1">Network administration & multi-site IT support</li>
@@ -101,7 +107,7 @@
             <div class="skill-card">
                 <div class="skill-header">
                     <i class="fa-brands fa-js" style="color: #f7df1e;"></i>
-                    <h3>Frontend Development</h3>
+                    <h3 data-i18n="skill_title_2">Frontend Development</h3>
                 </div>
                 <ul>
                     <li>HTML5 / CSS3 & CSS preprocessors</li>
@@ -113,7 +119,7 @@
             <div class="skill-card">
                 <div class="skill-header">
                     <i class="fa-solid fa-code" style="color: #68a063;"></i>
-                    <h3>Backend & Other Languages</h3>
+                    <h3 data-i18n="skill_title_3">Backend & Other Languages</h3>
                 </div>
                 <ul>
                     <li>Node.js, Express, MongoDB</li>
@@ -125,7 +131,7 @@
             <div class="skill-card">
                 <div class="skill-header">
                     <i class="fa-solid fa-screwdriver-wrench" style="color: #ff7675;"></i>
-                    <h3>Tools & Workflow</h3>
+                    <h3 data-i18n="skill_title_4">Tools & Workflow</h3>
                 </div>
                 <ul>
                     <li>Git, Jira</li>
@@ -142,11 +148,11 @@
         <div class="timeline">
 
             <!-- ADT Comp Group -->
-            <div class="timeline-item">
+                        <div class="timeline-item">
                 <div class="timeline-dot"></div>
                 <div class="timeline-date" data-i18n="exp1_date">November 2025 — Present</div>
                 <div class="timeline-content">
-                    <h3>Network Technician / IT Support</h3>
+                    <h3 data-i18n="exp1_role">Network Technician / IT Support</h3>
                     <p class="company">ADT Comp Group, MMC — <a class="company-link" href="https://www.adt.az/" target="_blank">www.adt.az</a></p>
                     <ul>
                         <li data-i18n="exp1_bullet1"><strong>Multi-Site IT Infrastructure Support:</strong> Technical maintenance and helpdesk support for the head office and a network of retail stores across major shopping malls.</li>
@@ -162,7 +168,7 @@
                 <div class="timeline-dot"></div>
                 <div class="timeline-date" data-i18n="exp2_date">May 2024 — March 2025</div>
                 <div class="timeline-content">
-                    <h3>IT Specialist</h3>
+                    <h3 data-i18n="exp2_role">IT Specialist</h3>
                     <p class="company">SARAL GROUP, LLC — <a class="company-link" href="https://www.saralgroup.az" target="_blank">www.saralgroup.az</a></p>
                     <ul>
                         <li data-i18n="exp2_bullet1">Full-cycle installation of CCTV systems, including SCS cabling, camera mounting, and NVR configuration at the Formula 1 event venue.</li>
@@ -177,7 +183,7 @@
                 <div class="timeline-dot"></div>
                 <div class="timeline-date" data-i18n="exp3_date">July 2020 — February 2022</div>
                 <div class="timeline-content">
-                    <h3>Software Developer</h3>
+                    <h3 data-i18n="exp3_role">Software Developer</h3>
                     <p class="company">EGAR TECHNOLOGY, INC. (Moscow) — <a class="company-link" href="https://www.egartech.ru" target="_blank">www.egartech.ru</a></p>
                     <ul>
                         <li data-i18n="exp3_bullet1">Designed and developed user interfaces for web apps using HTML, CSS, TypeScript, and AngularJS.</li>
@@ -235,8 +241,10 @@
         </div>
     </section>
 
-    <footer>
-        <p>© 2026 Alexey Bochkov. IT Specialist & Software Engineer.</p>
+
+
+        <footer>
+        <p data-i18n="footer_text">© 2026 Alexey Bochkov. IT Specialist & Software Engineer.</p>
     </footer>
 
     <script src="script.js?v=4"></script>
