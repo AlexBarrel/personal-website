@@ -197,7 +197,7 @@ function renderPortfolio(lang) {
                 <h3>${title}</h3>
                 <p class="portfolio-desc">${desc}</p>
                 <div class="portfolio-tags">${tags}</div>
-                <span class="portfolio-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> ${getHost(item.url)} · ${openText}</span>
+                <span class="portfolio-link"><i class="fa-solid fa-arrow-up-right-from-square"></i>${openText}</span>
             </div>
         </a>`;
     }).join('');
